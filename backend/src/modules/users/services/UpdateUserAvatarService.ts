@@ -5,7 +5,7 @@ import uploadConfig from '../../../config/upload';
 
 import AppError from '../../../shared/errors/AppError';
 
-import User from '../entities/Users';
+import User from '../../../modules/users/infra/entities/Users';
 
 interface Request {
   user_id: string;
